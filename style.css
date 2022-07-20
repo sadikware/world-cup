@@ -286,6 +286,7 @@ a {
 .social-icons a {
   color: #ffffff;
 }
+/* Footer End */
 
 /* Media Query */
 
@@ -370,14 +371,12 @@ a {
 /* Tablet Devices */
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-  /* body {
-    background-color: #dd0000;
-  } */
-
   .header,
   .main {
     margin: 25px 20px;
   }
+
+  /* Banner  */
 
   .banner-info {
     padding: 20px 0px;
