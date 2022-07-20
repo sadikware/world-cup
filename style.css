@@ -92,9 +92,9 @@ a {
   align-items: center;
 }
 
+/* Category Button */
 .cat-btn {
   background-color: #ffffff;
-
   padding: 17px 0px;
   font-weight: 500;
   font-size: 20px;
@@ -103,16 +103,11 @@ a {
   width: 252px;
   text-align: center;
 }
-
 .cat-btn a {
   color: #161616;
 }
-.content-category .blogs {
-  background-color: #dd0000;
-}
-.content-category .blogs a {
-  color: #ffffff;
-}
+
+/* Category Button End */
 
 .content-area {
   display: grid;
@@ -291,6 +286,7 @@ a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: center;
   }
 
   .banner-image img {
@@ -316,8 +312,14 @@ a {
     background-color: white;
   }
 
+  .content-category .cat-btn {
+    border: 1px solid #e8e8e8;
+  }
+
   .content-showcase {
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 15px;
+    margin-bottom: 24px;
   }
 
   .content-thumbnail img {
